@@ -1,3 +1,4 @@
+
 /* -------  General Styles ------- */
 
 body {
@@ -209,7 +210,7 @@ footer p {
     }
 }
 
-/* ------- For screens that are wider than 480px ------- */
+/* ------- For screnns that wider than 480px ------- */
 
 @media all and (min-width: 800px){
 
@@ -234,17 +235,33 @@ footer p {
     }
     /* ------- Ideas ------- */
   
-    .container {
+    #ideas .container {
         display: flex;
-        justify-content: space-between;
-        width: 900px;
-        margin: 40px auto;
+        align-items: center;
+        width: 100%;
+        flex-direction: row;
+
+        justify-content: space-evenly;
+       
     }
     
-    #ideas img {
-        width: 350px;
-        padding: 20px;
+    .container div{
+        width:100%;     
     }
+    
+    #ideas .container img {
+        
+        width: 90%;
+        padding: 10px;
+        margin-left: 20px;
+        align-items: center;
+        
+    }
+     
+    #ideas h3{
+        margin-left: 30px;
+    }
+   
     
     .forests {
         display: flex;
@@ -285,4 +302,3 @@ footer p {
     }
 
 }
-  
